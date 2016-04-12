@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263EFD7B1CBC2C5000B357BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263EFD7A1CBC2C5000B357BA /* AppDelegate.swift */; };
+		263EFD7D1CBC2C5000B357BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263EFD7C1CBC2C5000B357BA /* ViewController.swift */; };
+		263EFD801CBC2C5000B357BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263EFD7E1CBC2C5000B357BA /* Main.storyboard */; };
+		263EFD821CBC2C5000B357BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263EFD811CBC2C5000B357BA /* Assets.xcassets */; };
+		263EFD851CBC2C5000B357BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263EFD831CBC2C5000B357BA /* LaunchScreen.storyboard */; };
+		264B704E1CBC3385000E7F8A /* LunchHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264B704D1CBC3385000E7F8A /* LunchHistoryTableViewController.swift */; };
+		264B70501CBC33CE000E7F8A /* AddLunchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264B704F1CBC33CE000E7F8A /* AddLunchTableViewController.swift */; };
+		264B70521CBC341D000E7F8A /* LunchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264B70511CBC341D000E7F8A /* LunchCell.swift */; };
+		264B70551CBC359A000E7F8A /* Lunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264B70531CBC359A000E7F8A /* Lunch.swift */; };
+		264B70561CBC359A000E7F8A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264B70541CBC359A000E7F8A /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		263EFD771CBC2C5000B357BA /* iTrackLunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTrackLunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		263EFD7A1CBC2C5000B357BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		263EFD7C1CBC2C5000B357BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		263EFD7F1CBC2C5000B357BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		263EFD811CBC2C5000B357BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		263EFD841CBC2C5000B357BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		263EFD861CBC2C5000B357BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264B704D1CBC3385000E7F8A /* LunchHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchHistoryTableViewController.swift; sourceTree = "<group>"; };
+		264B704F1CBC33CE000E7F8A /* AddLunchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLunchTableViewController.swift; sourceTree = "<group>"; };
+		264B70511CBC341D000E7F8A /* LunchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchCell.swift; sourceTree = "<group>"; };
+		264B70531CBC359A000E7F8A /* Lunch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lunch.swift; sourceTree = "<group>"; };
+		264B70541CBC359A000E7F8A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		263EFD741CBC2C5000B357BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		263EFD6E1CBC2C5000B357BA = {
+			isa = PBXGroup;
+			children = (
+				263EFD791CBC2C5000B357BA /* iTrackLunch */,
+				263EFD781CBC2C5000B357BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		263EFD781CBC2C5000B357BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				263EFD771CBC2C5000B357BA /* iTrackLunch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		263EFD791CBC2C5000B357BA /* iTrackLunch */ = {
+			isa = PBXGroup;
+			children = (
+				263EFD921CBC2C9F00B357BA /* External */,
+				263EFD911CBC2C9700B357BA /* Supporting */,
+				263EFD901CBC2C8800B357BA /* Helpers */,
+				263EFD8F1CBC2C8000B357BA /* Stores */,
+				263EFD8E1CBC2C7A00B357BA /* Models */,
+				263EFD8D1CBC2C7400B357BA /* Controllers */,
+				263EFD8C1CBC2C6400B357BA /* Views */,
+				263EFD7A1CBC2C5000B357BA /* AppDelegate.swift */,
+				263EFD831CBC2C5000B357BA /* LaunchScreen.storyboard */,
+				263EFD861CBC2C5000B357BA /* Info.plist */,
+			);
+			path = iTrackLunch;
+			sourceTree = "<group>";
+		};
+		263EFD8C1CBC2C6400B357BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				263EFD7E1CBC2C5000B357BA /* Main.storyboard */,
+				264B70511CBC341D000E7F8A /* LunchCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		263EFD8D1CBC2C7400B357BA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				263EFD7C1CBC2C5000B357BA /* ViewController.swift */,
+				264B704D1CBC3385000E7F8A /* LunchHistoryTableViewController.swift */,
+				264B704F1CBC33CE000E7F8A /* AddLunchTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		263EFD8E1CBC2C7A00B357BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				264B70531CBC359A000E7F8A /* Lunch.swift */,
+				264B70541CBC359A000E7F8A /* Model.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		263EFD8F1CBC2C8000B357BA /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		263EFD901CBC2C8800B357BA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		263EFD911CBC2C9700B357BA /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				263EFD811CBC2C5000B357BA /* Assets.xcassets */,
+			);
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+		263EFD921CBC2C9F00B357BA /* External */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		263EFD761CBC2C5000B357BA /* iTrackLunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263EFD891CBC2C5000B357BA /* Build configuration list for PBXNativeTarget "iTrackLunch" */;
+			buildPhases = (
+				263EFD731CBC2C5000B357BA /* Sources */,
+				263EFD741CBC2C5000B357BA /* Frameworks */,
+				263EFD751CBC2C5000B357BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTrackLunch;
+			productName = iTrackLunch;
+			productReference = 263EFD771CBC2C5000B357BA /* iTrackLunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		263EFD6F1CBC2C5000B357BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = de.stocard.iTrackLunch;
+				TargetAttributes = {
+					263EFD761CBC2C5000B357BA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 263EFD721CBC2C5000B357BA /* Build configuration list for PBXProject "iTrackLunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 263EFD6E1CBC2C5000B357BA;
+			productRefGroup = 263EFD781CBC2C5000B357BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				263EFD761CBC2C5000B357BA /* iTrackLunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		263EFD751CBC2C5000B357BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263EFD851CBC2C5000B357BA /* LaunchScreen.storyboard in Resources */,
+				263EFD821CBC2C5000B357BA /* Assets.xcassets in Resources */,
+				263EFD801CBC2C5000B357BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		263EFD731CBC2C5000B357BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264B70561CBC359A000E7F8A /* Model.swift in Sources */,
+				263EFD7D1CBC2C5000B357BA /* ViewController.swift in Sources */,
+				264B704E1CBC3385000E7F8A /* LunchHistoryTableViewController.swift in Sources */,
+				264B70501CBC33CE000E7F8A /* AddLunchTableViewController.swift in Sources */,
+				263EFD7B1CBC2C5000B357BA /* AppDelegate.swift in Sources */,
+				264B70551CBC359A000E7F8A /* Lunch.swift in Sources */,
+				264B70521CBC341D000E7F8A /* LunchCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		263EFD7E1CBC2C5000B357BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				263EFD7F1CBC2C5000B357BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		263EFD831CBC2C5000B357BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				263EFD841CBC2C5000B357BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		263EFD871CBC2C5000B357BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		263EFD881CBC2C5000B357BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		263EFD8A1CBC2C5000B357BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iTrackLunch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ITL.iTrackLunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		263EFD8B1CBC2C5000B357BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iTrackLunch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ITL.iTrackLunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		263EFD721CBC2C5000B357BA /* Build configuration list for PBXProject "iTrackLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263EFD871CBC2C5000B357BA /* Debug */,
+				263EFD881CBC2C5000B357BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		263EFD891CBC2C5000B357BA /* Build configuration list for PBXNativeTarget "iTrackLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263EFD8A1CBC2C5000B357BA /* Debug */,
+				263EFD8B1CBC2C5000B357BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 263EFD6F1CBC2C5000B357BA /* Project object */;
+}
